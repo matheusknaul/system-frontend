@@ -1,0 +1,9 @@
+<div class="teste">
+    <h1>Seja bem-vindo ao meu Portfólio!</h1>
+    <button (click)="openModal()">Abrir Modal</button>
+
+    @if(isModalOpen){
+        <app-modal (close)=closeModal()></app-modal>
+    }
+
+</div>
