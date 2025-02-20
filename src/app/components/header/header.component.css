@@ -1,0 +1,26 @@
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: #0a71c6;
+    padding: 15px;
+}
+
+.nav{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.social-media ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
