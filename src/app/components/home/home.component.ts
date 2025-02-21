@@ -1,20 +1,12 @@
 import { Component, inject, Input, Output } from '@angular/core';
-import { ModalComponent } from '../modal/modal.component';
+import { HeroComponent } from './hero/hero.component';
 
 @Component({
   selector: 'app-home',
-  imports: [ModalComponent],
+  imports: [HeroComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-  isModalOpen = false;
 
-  openModal(){
-    this.isModalOpen = true;
-  }
-
-  closeModal(){
-    this.isModalOpen = false;
-  }
 }

@@ -8,11 +8,9 @@
     </div>
     <div class="nav">
         <ul>
-            <li>About</li> <!--O about vai para o home-->
-            <li>Projects</li>
-            <li>Blog</li>
-            <li>Contact</li>
-            <li>Language</li>
+            @for(item of menuItems; track item){
+                <li (click)="setAtcive(item)" ngClass="{'active':isActive}">{{item}}</li>
+            }
         </ul>
     </div>
 </div>

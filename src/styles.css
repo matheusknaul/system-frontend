@@ -10,4 +10,18 @@ h1, h2{
   font-family: 'Bitter', serif;
 }
 
+.btn{
+  background-color: #0a71c6;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  font-weight: 500;
+  border: 2px solid #0a71c6;
+}
+
+.btn:hover{
+  cursor: pointer;
+}
+
 

@@ -7,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
+  menuItems = ['Sobre', 'Projetos', 'Blog', 'Contato', 'Idioma'];
+  selectedItem:string = '';
 
+  setAtcive(item:string){
+    this.selectedItem = item;
+  }
 }

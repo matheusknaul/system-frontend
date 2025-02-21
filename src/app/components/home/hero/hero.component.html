@@ -1,1 +1,18 @@
 
+<div class="hero">
+    <div class="photo"></div>
+    <div class="introduction">
+        <p>Olá, eu sou o</p>
+        <h1>Matheus Henrique Knaul Calvet</h1>
+        <p>Lorem ipsum dolor sit amet consectetur <strong>adipisicing elit.</strong> Nemo minima expedita aut, quisquam dolores velit <strong>magnam</strong> recusandae minus nostrum perspiciatis modi <strong>culpa</strong> voluptate ipsum maxime voluptatibus <strong>consequuntur</strong> inventore nihil odio?</p>    
+    </div>
+    <div class="buttons-section">
+        <button class="btn btn-curriculum" (click)="openModal()"><i class="fa-solid fa-envelope"></i>Meu Currículo</button>
+        <button class="btn btn-contact">Entrar em contato</button>
+        <button class="btn" (click)="openModal()">Abrir Modal</button>
+    </div>
+    @if(isModalOpen){
+        <app-modal-curriculum (close)=closeModal()></app-modal-curriculum>
+    }
+
+</div>

@@ -1,0 +1,21 @@
+.hero{
+    color: rgb(248, 245, 245);
+    background-color: #41a4f5;
+    display: flex;
+    height: 450px;
+
+}
+
+i{
+    margin-right: 5px;
+}
+
+.btn-contact{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.introduction strong{
+    color: #225f91;
+}
