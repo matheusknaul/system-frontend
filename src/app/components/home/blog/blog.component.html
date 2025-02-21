@@ -1,0 +1,21 @@
+<div class="blog">
+    <div class="content-blog">
+        <div class="cards-container">
+            @for(post of posts; track post){
+                <div class="card">
+                    <app-card-blog
+                        [title]="post.title"
+                        [imagePath]="post.imagePath"
+                        [description]="post.description"
+                        [date]="post.date"
+                        [numberComments]="post.numberComments"
+                    >
+                    </app-card-blog>
+                </div>
+            }
+        </div>
+        <div class="button-container">
+            <button>Veja Todos os Posts</button>
+        </div>
+    </div>
+</div>
