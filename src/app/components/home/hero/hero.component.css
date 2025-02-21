@@ -1,9 +1,14 @@
 .hero{
     color: rgb(248, 245, 245);
-    background-color: #41a4f5;
     display: flex;
     height: 450px;
 
+}
+
+.photo{
+    width: 400px;
+    height: 200px;
+    background-color: blue;
 }
 
 i{

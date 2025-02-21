@@ -1,1 +1,13 @@
-<p>card works!</p>
+<div class="shape">
+    <div class="icon">
+        <i></i>
+    </div>
+    <div class="content-skills">
+        <h3>{{title}}</h3>
+        <ul>
+            @for(skill of skills; track skill){
+                <li>&#10003; {{skill}}</li>
+            }
+        </ul>
+    </div>
+</div>

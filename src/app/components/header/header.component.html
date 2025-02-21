@@ -7,10 +7,14 @@
         </ul>
     </div>
     <div class="nav">
-        <ul>
-            @for(item of menuItems; track item){
-                <li (click)="setAtcive(item)" ngClass="{'active':isActive}">{{item}}</li>
-            }
-        </ul>
+        <div class="nav-container">
+            <ul>
+                @for(item of menuItems; track item){
+                    <li (click)="setActive(item)" class="{{selectedItem === item ? 'active' : ''}}">
+                        {{item}}
+                    </li>
+                }
+            </ul>
+        </div>
     </div>
 </div>

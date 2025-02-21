@@ -10,7 +10,8 @@ export class HeaderComponent {
   menuItems = ['Sobre', 'Projetos', 'Blog', 'Contato', 'Idioma'];
   selectedItem:string = '';
 
-  setAtcive(item:string){
+  setActive(item:string){
     this.selectedItem = item;
+    console.log(item);
   }
 }
