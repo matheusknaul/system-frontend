@@ -1,14 +1,18 @@
 <div class="shape">
     <div class="icon">
-        <i></i>
+        <i class="{{icon}}"></i>
         <!-- TODO: icone  -->
     </div>
     <div class="content-skills">
-        <h3>{{title}}</h3>
-        <ul>
-            @for(skill of skills; track skill){
-                <li>&#10003; {{skill}}</li>
-            }
-        </ul>
+        <div class="title">
+            <h2>{{title}}</h2>
+        </div>
+        <div class="skill-list">
+            <ul>
+                @for(skill of skills; track skill){
+                    <li>&#10003; {{skill}}</li>
+                }
+            </ul>
+        </div>
     </div>
 </div>

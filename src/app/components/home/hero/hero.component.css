@@ -2,7 +2,22 @@
     color: rgb(248, 245, 245);
     display: flex;
     height: 450px;
+    display: flex;
+    align-items: center;
+}
 
+.btn-contact:hover{
+    color: #085492;
+    border-color: #085492;
+}
+
+.btn-curriculum{
+    transition: background-color 0.3s ease, border-color 0.3s ease; 
+}
+
+.btn-curriculum:hover{
+    background-color: #085492;
+    border-color: #085492;
 }
 
 .photo{
@@ -19,6 +34,7 @@ i{
     background-color: transparent;
     border: 2px solid white;
     color: white;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease
 }
 
 .introduction strong{

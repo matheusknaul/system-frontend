@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-  menuItems = ['Sobre', 'Projetos', 'Blog', 'Contato', 'Idioma'];
+  menuItems = ['Sobre', 'Projetos', 'Blog','Currículo', 'Contato', 'Idioma'];
   selectedItem:string = '';
 
   setActive(item:string){
