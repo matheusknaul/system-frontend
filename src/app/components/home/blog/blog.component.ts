@@ -12,7 +12,14 @@ export class BlogComponent {
     "title": "Turn Based RPG",
     "imagePath": "",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde culpa dicta explicabo ipsum voluptas nihil qui modi aliquid praesentium nemo libero, omnis quidem temporibus. Alias ducimus est cum blanditiis nisi?",
-    "date": "26 de Junho",
-    "numberComments": "2"
+    "date": "25 de Fevereiro",
+    "numberComments": "0"
+  },
+  {
+    "title": "Turn Based RPG",
+    "imagePath": "",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde culpa dicta explicabo ipsum voluptas nihil qui modi aliquid praesentium nemo libero, omnis quidem temporibus. Alias ducimus est cum blanditiis nisi?",
+    "date": "25 de Fevereiro",
+    "numberComments": "0"
   }]
 }

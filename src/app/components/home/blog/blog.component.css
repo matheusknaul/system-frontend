@@ -1,0 +1,16 @@
+.content-blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #434e62;
+    padding: 20px;
+}
+
+.cards-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20x;
+    margin-top: 30px;
+}
