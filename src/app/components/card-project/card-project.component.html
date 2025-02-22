@@ -2,14 +2,16 @@
     <div class="banner">
         <img src={{imagePath}} alt="">
     </div>
-    <div class="title">
-        <h3>{{title}}</h3>
-    </div>
-    <div class="technologies">
-        <ul>
-            @for(technologie of technologies; track technologie){
-                <li>{{technologie}}</li>
-            }
-        </ul>
+    <div class="info">
+        <div class="title">
+            <h3>{{title}}</h3>
+        </div>
+        <div class="technologies">
+            <ul>
+                @for(technologie of technologies; track technologie){
+                    <li>{{technologie}}</li>
+                }
+            </ul>
+        </div>
     </div>
 </div>
