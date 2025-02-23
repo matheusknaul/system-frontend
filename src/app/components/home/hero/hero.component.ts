@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
-import { ModalCurriculumComponent } from '../../modal/modal-curriculum/modal-curriculum.component';
+import { ModalCurriculumComponent } from '../../modal-curriculum/modal-curriculum.component';
+import { ModalComponent } from '../../modal/modal.component';
 
 @Component({
   selector: 'app-hero',
-  imports: [ModalCurriculumComponent],
+  imports: [ModalComponent],
   templateUrl: './hero.component.html',
   styleUrl: './hero.component.css'
 })

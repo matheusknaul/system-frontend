@@ -1,17 +1,35 @@
 <div class="header">
     <div class="social-media">
         <ul>
-            <li><i class="fa-brands fa-linkedin"></i></li>
-            <li><i class="fa-brands fa-github"></i></li>
-            <li><i class="fa-brands fa-whatsapp"></i></li>
+            <li>
+                <a href="https://www.linkedin.com/in/matheus-henrique-knaul-calvet/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/matheusknaul" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </li>
         </ul>
     </div>
     <div class="nav">
         <div class="nav-container">
             <ul>
-                @for(item of menuItems; track item){
+                <!-- @for(item of menuItems; track item){
                     <li (click)="setActive(item)" class="{{selectedItem === item ? 'active' : ''}}">
                         {{item}}
+                    </li>
+                } -->
+
+                @for(item of menuItems; track item){
+                    <li (click)="setActive(item.name)" class="{{selectedItem === item.name ? 'active' : ''}}">
+                        <a href="{{item.link}}">{{item.name}}</a>
                     </li>
                 }
             </ul>

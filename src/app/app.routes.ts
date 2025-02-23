@@ -1,14 +1,14 @@
 import { Routes } from '@angular/router';
+import { ContactComponent } from './components/contact/contact.component';
 import { HomeComponent } from './components/home/home.component';
-import { CardComponent } from './components/card/card.component';
 
 export const routes: Routes = [
     {
-    path:"",
-    component: HomeComponent,
-    },
-    {
-    path:"as",
-    component: CardComponent
+        path:"",
+        component: HomeComponent
+    }
+    ,{
+        path:"contact",
+        component: ContactComponent
     }
 ];
