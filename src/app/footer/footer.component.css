@@ -1,0 +1,16 @@
+footer{
+    background-color: #252325;
+}
+
+.footer-container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: white;
+}
